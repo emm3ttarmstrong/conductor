@@ -1,0 +1,6 @@
+{
+    "manifest_version": 1,
+    "name": "Conductor",
+    "version": "0.1",
+    "description": "A tool for managing site publishing status in Webflow"
+}
