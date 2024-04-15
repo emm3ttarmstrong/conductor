@@ -2,5 +2,21 @@
     "manifest_version": 1,
     "name": "Conductor",
     "version": "0.1",
-    "description": "A tool for managing site publishing status in Webflow"
+    "description": "A tool for managing site publishing status in Webflow",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/conductor.js"
+            ],
+            "matches": [
+                "https://*.design.webflow.com"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    }
 }
