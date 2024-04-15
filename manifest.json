@@ -1,15 +1,25 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 3,
     "name": "Conductor",
     "version": "0.1",
     "description": "A tool for managing site publishing status in Webflow",
     "content_scripts": [
         {
             "js": [
-                "scripts/conductor.js"
+                "scripts/content.js"
             ],
             "matches": [
-                "https://*.design.webflow.com"
+                "https://*.design.webflow.com/"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "/images/*.svg"
+            ],
+            "matches": [
+                "https://*.design.webflow.com/"
             ]
         }
     ],
