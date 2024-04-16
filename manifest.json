@@ -8,15 +8,8 @@
             "js": [
                 "scripts/content.js"
             ],
-            "matches": [
-                "https://*.design.webflow.com/"
-            ]
-        }
-    ],
-    "web_accessible_resources": [
-        {
-            "resources": [
-                "/images/*.svg"
+            "css": [
+                "scripts/style.css"
             ],
             "matches": [
                 "https://*.design.webflow.com/"
